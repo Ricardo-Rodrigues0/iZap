@@ -111,3 +111,10 @@
     filter: invert(43%) sepia(94%) saturate(430%) hue-rotate(83deg) brightness(91%) contrast(85%);
   }
   
+
+  .video-vertical {
+    width: auto;
+    max-height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
