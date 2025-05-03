@@ -9,21 +9,25 @@
     z-index: 10;
     padding: 0.5rem 1rem;
   }
-
-  .nav-link {
-    color: #333 !important;
-    border-radius: 5px;
-    padding: 6px 12px;
-  }
-
-  .nav-link:hover {
-    background-color: #f1f1f1;
-  }
-
-  .btn-logo {
-    background-color: #edf0f5;
+  
+  .custom-nav-btn {
+    background-color: #2e7d32; /* verde escuro */
+    color: #fff;
     border: none;
-    padding: 6px 12px;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 24px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s;
   }
+  
+  .custom-nav-btn:hover {
+    background-color: #1b5e20;
+    color: rgb(221, 221, 221);
+    transform: translateY(-2px);
+  }
+  
+  .nav-buttons {
+    padding-top: 0.5rem;
+  }
+  
