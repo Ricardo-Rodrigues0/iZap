@@ -31,3 +31,33 @@
     padding-top: 0.5rem;
   }
   
+
+
+  .card-custom {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.card-custom:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.icon-large {
+    font-size: 3rem;
+    color: #198754; /* Bootstrap success color */
+    margin: 1.5rem auto 0 auto;
+    display: block;
+}
+
+.card-title {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}

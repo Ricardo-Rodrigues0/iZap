@@ -29,24 +29,136 @@
         <div class="container-fluid d-flex align-items-center justify-content-between">
             <!-- Logo -->
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="./assets/img/izap-logo.png" alt="Logo" width="80" height="80">
-                <img src="./assets/img/izap-logoName.png" alt="Logo" width="120" height="70">
+                <img src="./assets/img/izap-logo.png" alt="Logo" class="img-fluid" style="max-width: 80px;">
+                <img src="./assets/img/izap-logoName.png" alt="Logo" class="img-fluid d-none d-md-block"
+                    style="max-width: 120px;">
             </a>
 
-            <!-- Botões centralizados -->
-            <div class="d-flex gap-4 mx-auto nav-buttons">
-                <a href="#inicio" class="btn custom-nav-btn">Início</a>
-                <a href="#planos" class="btn custom-nav-btn">Planos</a>
-                <a href="#clientes" class="btn custom-nav-btn">Clientes</a>
-                <a href="#contato" class="btn custom-nav-btn">Contato</a>
+            <!-- Botão de alternância para dispositivos móveis -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Botões de navegação -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Versão desktop: gap e botões alinhados horizontalmente -->
+                <div class="d-none d-lg-flex gap-4 mx-auto nav-buttons">
+                    <a href="#inicio" class="btn custom-nav-btn">Início</a>
+                    <a href="#planos" class="btn custom-nav-btn">Planos</a>
+                    <a href="#clientes" class="btn custom-nav-btn">Clientes</a>
+                    <a href="#contato" class="btn custom-nav-btn">Contato</a>
+                </div>
+
+                <!-- Versão mobile: links empilhados -->
+                <div class="d-flex d-lg-none flex-column align-items-center navbar-nav mt-3">
+                    <a href="#inicio" class="nav-link custom-nav-btn">Início</a>
+                    <a href="#planos" class="nav-link custom-nav-btn">Planos</a>
+                    <a href="#clientes" class="nav-link custom-nav-btn">Clientes</a>
+                    <a href="#contato" class="nav-link custom-nav-btn">Contato</a>
+                </div>
             </div>
+
         </div>
     </nav>
 
+
+
     <div class="main">
-        <img src="./assets/img/banner.png" alt="">
+        <img src="./assets/img/banner.png" alt="" class="img-fluid w-100">
+
+        <div class="container text-center my-5">
+            <h3 class="fw-bold mb-4">Comece agora mesmo a automatizar seus atendimentos</h3>
+            <div class="row justify-content-center g-2"> <!-- g-2 reduz o espaço entre colunas -->
+                <div class="col-12 col-md-4">
+                    <a href="#" class="btn btn-success btn-lg w-75 rounded-pill">Teste Grátis</a>
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="#planos" class="btn btn-outline-success btn-lg w-75 rounded-pill">Planos</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- CARD 1 -->
+                <div class="col">
+                    <div class="card card-custom text-center p-3">
+                        <i class="bi bi-award-fill icon-large"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Inteligência Artificial</h5>
+                            <p class="card-text">Nosso sistema utiliza IA avançada para entender e responder às mensagens dos seus clientes de forma natural e eficiente.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Repita os próximos cards conforme necessário -->
+                <div class="col">
+                    <div class="card card-custom text-center p-3">
+                        <i class="bi bi-award-fill icon-large"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Respostas Inteligentes</h5>
+                            <p class="card-text">Automatize mensagens com qualidade e rapidez para encantar seus clientes a qualquer hora.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card card-custom text-center p-3">
+                        <i class="bi bi-award-fill icon-large"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Atendimento 24/7</h5>
+                            <p class="card-text">Esteja sempre disponível com um sistema que nunca dorme, garantindo atendimento contínuo.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                
+        
+                <div class="col">
+                    <div class="card card-custom text-center p-3">
+                        <i class="bi bi-award-fill icon-large"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Atendimento 24/7</h5>
+                            <p class="card-text">Esteja sempre disponível com um sistema que nunca dorme, garantindo atendimento contínuo.</p>
+                        </div>
+                    </div>
+                </div>
+                
+        
+                <div class="col">
+                    <div class="card card-custom text-center p-3">
+                        <i class="bi bi-award-fill icon-large"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Atendimento 24/7</h5>
+                            <p class="card-text">Esteja sempre disponível com um sistema que nunca dorme, garantindo atendimento contínuo.</p>
+                        </div>
+                    </div>
+                </div>
+                
+        
+                <div class="col">
+                    <div class="card card-custom text-center p-3">
+                        <i class="bi bi-award-fill icon-large"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Atendimento 24/7</h5>
+                            <p class="card-text">Esteja sempre disponível com um sistema que nunca dorme, garantindo atendimento contínuo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
     </div>
 
+
+
+    <!-- Importando scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
