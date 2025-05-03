@@ -1,0 +1,29 @@
+.navbar-custom {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    border-radius: 1rem 1rem 0 0;
+    background-color: #ffffff00;
+    z-index: 10;
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-link {
+    color: #333 !important;
+    border-radius: 5px;
+    padding: 6px 12px;
+  }
+
+  .nav-link:hover {
+    background-color: #f1f1f1;
+  }
+
+  .btn-logo {
+    background-color: #edf0f5;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
