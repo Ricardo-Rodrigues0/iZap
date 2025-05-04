@@ -17,7 +17,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <div class="container-fluid d-flex align-items-center justify-content-between">
-            <a class="navbar-brand d-flex align-items-center" href="#">
+            <a class="navbar-brand d-flex align-items-center" href="./index.html">
                 <img src="./assets/midias/img/izap-logo.png" alt="Logo" class="img-fluid" style="max-width: 80px;">
                 <img src="./assets/midias/img/izap-logoName.png" alt="Logo" class="img-fluid d-none d-md-block"
                     style="max-width: 120px;">
@@ -28,16 +28,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="d-none d-lg-flex gap-4 mx-auto nav-buttons">
-                    <a href="#inicio" class="btn custom-nav-btn">Início</a>
-                    <a href="#planos" class="btn custom-nav-btn">Planos</a>
-                    <a href="#clientes" class="btn custom-nav-btn">Clientes</a>
-                    <a href="#contato" class="btn custom-nav-btn">Contato</a>
+                    <a href="./index.html" class="btn custom-nav-btn">Início</a>
+                    <a href="./pages/planos.html" class="btn custom-nav-btn">Planos</a>
+                    <a href="./pages/clientes.html" class="btn custom-nav-btn">Clientes</a>
+                    <a href="./pages/contatos.html" class="btn custom-nav-btn">Contato</a>
                 </div>
                 <div class="d-flex d-lg-none flex-column align-items-center navbar-nav mt-3">
-                    <a href="#inicio" class="nav-link custom-nav-btn">Início</a>
-                    <a href="#planos" class="nav-link custom-nav-btn">Planos</a>
-                    <a href="#clientes" class="nav-link custom-nav-btn">Clientes</a>
-                    <a href="#contato" class="nav-link custom-nav-btn">Contato</a>
+                    <a href="./index.html" class="nav-link custom-nav-btn">Início</a>
+                    <a href="./pages/planos.html" class="nav-link custom-nav-btn">Planos</a>
+                    <a href="./pages/clientes.html" class="nav-link custom-nav-btn">Clientes</a>
+                    <a href="./pages/contatos.html" class="nav-link custom-nav-btn">Contato</a>
                 </div>
             </div>
         </div>
@@ -75,10 +75,17 @@
             </div>
             <div class="row justify-content-center g-2 mt-4">
                 <div class="col-12 col-md-4">
-                    <a href="#" class="btn btn-success btn-lg w-75 rounded-pill">Teste Grátis</a>
+                    <a 
+                        href="https://api.whatsapp.com/send/?phone=5575981557558&text=Ol%C3%A1%2C+acessei+o+site+e+tenho+interesse+em+realizar+um+teste+gratuito+da+plataforma+iZap.ai.&type=phone_number&app_absent=0" 
+                        class="btn btn-success btn-lg w-75 rounded-pill" 
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                        Teste Grátis
+                    </a>
                 </div>
+                
                 <div class="col-12 col-md-4">
-                    <a href="#planos" class="btn btn-outline-success btn-lg w-75 rounded-pill">Planos</a>
+                    <a href="./pages/planos.html" class="btn btn-outline-success btn-lg w-75 rounded-pill">Planos</a>
                 </div>
             </div>
         </div>
@@ -393,7 +400,7 @@
             <div class="container text-center py-5">
                 <h3 class="fw-bold mt-2 mb-4">Faça como eles e automatize seu atendimento.</h3>
                 <div class="col-12 col-md-4 mx-auto">
-                    <a href="#planos" class="btn btn-success btn-lg w-100 rounded-pill">Quero Automatizar</a>
+                    <a href="./pages/planos.html" class="btn btn-success btn-lg w-100 rounded-pill">Quero Automatizar</a>
                 </div>
             </div>
         </div>
@@ -408,16 +415,18 @@
             <img src="./assets/midias/img/izap-logoName.png" alt="Logo iZap" style="height: 40px;" class="mb-3">
 
             <div class="mb-3">
-                <a href="#" class="text-dark me-3"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="text-dark me-3"><i class="bi bi-whatsapp"></i></a>
-                <a href="#" class="text-dark"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/izap.ai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/people/Izapai/61567469547016/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/izapai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=5575981557558&text&type=phone_number&app_absent=0" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@izap.ai" class="text-dark" target="_blank" rel="noopener noreferrer"><i class="bi bi-tiktok"></i></a>
             </div>
+            
 
             <small class="d-block mb-1">
                 © iZap. Todos os direitos reservados.
-                <a href="#" class="text-success text-decoration-none">Termos de Uso</a> |
-                <a href="#" class="text-success text-decoration-none">Política de Privacidade</a>
+                <a href="./pages/termos.html" class="text-success text-decoration-none">Termos de Uso</a> |
+                <a href="./pages/privacidade.html" class="text-success text-decoration-none">Política de Privacidade</a>
             </small>
             <small class="d-block">Rua Serranópolis, 9-A, Caseb, Feira de Santana-BA, 44.052-171</small>
             <small class="d-block">CNPJ: 18.051.583/0001-45</small>
