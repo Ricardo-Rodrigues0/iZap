@@ -223,4 +223,8 @@ iframe {
       font-size: 0.75rem;
       padding: 3px 8px;
   }
+
+  .navbar-brand img {
+    width: 20px;;
+  }
 }
