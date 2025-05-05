@@ -1,212 +1,226 @@
-
-
+/* ===== Scrollbar Personalizado ===== */
 *::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 *::-webkit-scrollbar-thumb {
-    border-radius: 20px;
-    border: 3px solid #62D61D;
+  border-radius: 20px;
+  border: 3px solid #62D61D; /* Verde claro */
 }
 
 
+/* ===== Navbar Personalizada ===== */
 .navbar-custom {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    border-radius: 1rem 1rem 0 0;
-    background-color: #ffffff00;
-    z-index: 10;
-    padding: 0.5rem 1rem;
-  }
-  
-  .custom-nav-btn {
-    background-color: #2e7d32; /* verde escuro */
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 5px 24px;
-    font-weight: 600;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.2s;
-  }
-  
-  .custom-nav-btn:hover {
-    background-color: #1b5e20;
-    color: rgb(221, 221, 221);
-    transform: translateY(-2px);
-  }
-  
-  .nav-buttons {
-    padding-top: 0.5rem;
-  }
-  
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem 1rem 0 0;
+  background-color: #ffffff00; /* Transparente */
+  z-index: 10;
+}
+
+/* Botão da Navbar */
+.custom-nav-btn {
+  background-color: #2e7d32; /* Verde escuro */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 24px;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.custom-nav-btn:hover {
+  background-color: #1b5e20;
+  color: #ddd;
+  transform: translateY(-2px);
+}
+
+.nav-buttons {
+  padding-top: 0.5rem;
+}
 
 
-  .card-custom {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: none;
-    border-radius: 1rem;
-    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
-    height: 100%;
+/* ===== Cartões (Cards) ===== */
+.card-custom {
+  height: 100%;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-custom:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background: #f9fff6;
+  transform: translateY(-10px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background: #f9fff6;
 }
 
+/* Ícone grande centralizado */
 .icon-large {
-    font-size: 3rem;
-    color: #198754; /* Bootstrap success color */
-    margin: 1.5rem auto 0 auto;
-    display: block;
+  font-size: 3rem;
+  color: #198754; /* Bootstrap green */
+  display: block;
+  margin: 1.5rem auto 0;
 }
 
 .card-title {
-    margin-top: 1rem;
-    font-weight: bold;
+  margin-top: 1rem;
+  font-weight: bold;
 }
 
 .card-text {
-    font-size: 0.95rem;
+  font-size: 0.95rem;
 }
 
+
+/* ===== Seção de Depoimentos ===== */
 .depoimentos-section {
-    background-color: #e9f7ef;
-    padding: 60px 0;
-  }
-  
-  .depoimento-item {
-    background: transparent;
-    border: none;
-    text-align: center;
-    max-width: 700px;
-    padding: 20px;
-  }
-  
-  .foto-cliente {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #62D61D;
-  }
-  
-  .cliente-nome {
-    font-weight: 600;
-    font-size: 1.25rem;
-    color: #212529;
-  }
-  
-  .cliente-empresa {
-    display: block;
-    font-size: 0.95rem;
-    color: #6c757d;
-  }
-  
-  .seta-verde {
-    filter: invert(43%) sepia(94%) saturate(430%) hue-rotate(83deg) brightness(91%) contrast(85%);
-  }
-  
+  background-color: #e9f7ef;
+  padding: 60px 0;
+}
 
-  .video-vertical {
-    width: auto;
-    max-height: 500px;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  }
+.depoimento-item {
+  background: transparent;
+  border: none;
+  text-align: center;
+  max-width: 700px;
+  padding: 20px;
+}
 
-  .card-plan {
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
-  }
+.foto-cliente {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #62D61D;
+}
 
-  .card-plan:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-  }
+.cliente-nome {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #212529;
+}
 
-  .card-plan .card-body {
-    flex-grow: 1;
-    padding-bottom: 0;
-  }
+.cliente-empresa {
+  display: block;
+  font-size: 0.95rem;
+  color: #6c757d;
+}
 
-  .card-plan ul {
-    padding-left: 0;
-    list-style: none;
-  }
+.seta-verde {
+  filter: invert(43%) sepia(94%) saturate(430%) hue-rotate(83deg) brightness(91%) contrast(85%);
+}
 
-  .card-plan ul li {
-    margin-bottom: 10px;
-  }
 
-  .btn-fixed {
-    border-radius: 0 0 20px 20px;
-  }
+/* ===== Vídeo ===== */
+.video-vertical {
+  width: auto;
+  max-height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
 
+
+/* ===== Cartões de Plano ===== */
+.card-plan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-plan:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-plan .card-body {
+  flex-grow: 1;
+  padding-bottom: 0;
+}
+
+.card-plan ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card-plan ul li {
+  margin-bottom: 10px;
+}
+
+/* Botão inferior fixado no card */
+.btn-fixed {
+  border-radius: 0 0 20px 20px;
+}
+
+/* Badge de plano popular */
+.popular-badge {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  background-color: #ffc107; /* Amarelo */
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  transform: rotate(15deg);
+  border-radius: 5px;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ===== Botões e Textos Roxos ===== */
+.text-purple {
+  color: #6f42c1;
+}
+
+.btn-purple {
+  background-color: #6f42c1;
+  color: #fff;
+}
+
+.btn-purple:hover {
+  background-color: #5936a8;
+  color: #fff;
+}
+
+/* ===== Ícones em Campos de Formulário ===== */
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  transform: translateY(-50%);
+  color: #28a745; /* Verde */
+}
+
+.input-with-icon {
+  padding-left: 2.5rem;
+}
+
+
+/* ===== Google Maps ou iFrame Embeds ===== */
+iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: .5rem;
+}
+
+/* ===== Responsividade ===== */
+@media (max-width: 576px) {
   .popular-badge {
-    position: absolute;
-    top: -15px;
-    right: -10px;
-    background-color: #ffc107;
-    color: black;
-    font-weight: bold;
-    padding: 5px 10px;
-    transform: rotate(15deg);
-    border-radius: 5px;
-    z-index: 2;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  }
-
-  .text-purple {
-    color: #6f42c1;
-  }
-
-  .btn-purple {
-    background-color: #6f42c1;
-    color: #fff;
-  }
-
-  .btn-purple:hover {
-    background-color: #5936a8;
-    color: #fff;
-  }
-
-  @media (max-width: 576px) {
-    .popular-badge {
       top: -10px;
       right: -5px;
       font-size: 0.75rem;
       padding: 3px 8px;
-    }
   }
-
-
-  .form-icon {
-    position: absolute;
-    top: 50%;
-    left: 0.75rem;
-    transform: translateY(-50%);
-    color: #28a745;
-  }
-
-  .input-with-icon {
-    padding-left: 2.5rem;
-  }
-
-  iframe {
-    border: 0;
-    width: 100%;
-    height: 300px;
-    border-radius: .5rem;
-  }
+}
