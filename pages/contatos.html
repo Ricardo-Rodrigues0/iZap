@@ -2,178 +2,227 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="shortcut icon" href="../assets/midias/img/favicon.ico" type="image/x-icon">
-    <title>iZAP.ai - Contatos | Termos de Uso</title>
+  <!-- Meta Tags e Links de Estilos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap Icons para ícones (usado no projeto) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+  <!-- Bootstrap CSS (para o layout e estilo responsivo) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+
+  <!-- Estilos adicionais do projeto -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- Favicon (ícone do site) -->
+  <link rel="shortcut icon" href="../assets/midias/img/favicon.ico" type="image/x-icon">
+
+  <!-- Título da página (exibido na aba do navegador) -->
+  <title>iZAP.ai - Clientes | Automatize seus atendimentos com Inteligência Artificial no WhatsApp</title>
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-        <div class="container-fluid d-flex align-items-center justify-content-between">
-            <a class="navbar-brand d-flex align-items-center" href="./index.html">
-                <img src="../assets/midias/img/izap-logo.png" alt="Logo" class="img-fluid" style="max-width: 80px;">
-                <img src="../assets/midias/img/izap-logoName.png" alt="Logo" class="img-fluid d-none d-md-block"
-                    style="max-width: 120px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="d-none d-lg-flex gap-4 mx-auto nav-buttons">
-                    <a href="../index.html" class="btn custom-nav-btn">Início</a>
-                    <a href="../pages/planos.html" class="btn custom-nav-btn">Planos</a>
-                    <a href="../pages/clientes.html" class="btn custom-nav-btn">Clientes</a>
-                    <a href="../pages/contatos.html" class="btn custom-nav-btn">Contato</a>
-                </div>
-                <div class="d-flex d-lg-none flex-column align-items-center navbar-nav mt-3">
-                    <a href="../index.html" class="nav-link custom-nav-btn">Início</a>
-                    <a href="../pages/planos.html" class="nav-link custom-nav-btn">Planos</a>
-                    <a href="../pages/clientes.html" class="nav-link custom-nav-btn">Clientes</a>
-                    <a href="../pages/contatos.html" class="nav-link custom-nav-btn">Contato</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+  <!-- NAVBAR: Barra de Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+      <!-- Logo da empresa com links para as páginas -->
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <img src="../assets/midias/img/izap-logo.png" alt="Logo" class="img-fluid" style="max-width: 80px;">
+        <img src="../assets/midias/img/izap-logoName.png" alt="Logo" class="img-fluid d-none d-md-block"
+          style="max-width: 120px;">
+      </a>
 
-    <!-- SEÇÃO: Banner -->
-    <section id="inicio" style="background-color: #f8f9fa;">
-        <div class="main">
-            <img src="../assets/midias/img/bannerContato.png" alt="Banner" class="img-fluid w-100">
+      <!-- Botão para alternar menu em dispositivos pequenos -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu de navegação para telas grandes -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="d-none d-lg-flex gap-4 mx-auto nav-buttons">
+          <!-- Links de navegação para as páginas principais -->
+          <a href="../index.html" class="btn custom-nav-btn">Início</a>
+          <a href="../pages/planos.html" class="btn custom-nav-btn">Planos</a>
+          <a href="../pages/clientes.html" class="btn custom-nav-btn">Clientes</a>
+          <a href="../pages/contatos.html" class="btn custom-nav-btn">Contato</a>
         </div>
 
-    </section>
-
-    <section class="container py-5">
-        <div class="text-center mb-5">
-          <h1 class="fw-bold text-success">Entre em Contato</h1>
-          <p class="text-muted">Estamos aqui para ajudar com qualquer dúvida ou solicitação</p>
+        <!-- Menu de navegação para telas pequenas -->
+        <div class="d-flex d-lg-none flex-column align-items-center navbar-nav mt-3">
+          <!-- Links de navegação para telas menores -->
+          <a href="../index.html" class="nav-link custom-nav-btn">Início</a>
+          <a href="../pages/planos.html" class="nav-link custom-nav-btn">Planos</a>
+          <a href="../pages/clientes.html" class="nav-link custom-nav-btn">Clientes</a>
+          <a href="../pages/contatos.html" class="nav-link custom-nav-btn">Contato</a>
         </div>
-      
-        <div class="row g-5">
-          <!-- Lado Esquerdo: Contato + Mapa -->
-          <div class="col-lg-4">
-            <!-- Contato -->
-            <div class="bg-white p-4 rounded-4 shadow-sm mb-4 border-start border-4 border-success">
-              <h5 class="fw-bold mb-3 text-success"><i class="bi bi-info-circle-fill me-2"></i>Informações de Contato</h5>
-              <p class="mb-2"><i class="bi bi-geo-alt-fill text-success me-2"></i>Rua Serranópolis, 9-A, Caseb<br>Feira de Santana-BA, 44.052-171</p>
-              <p class="mb-2"><i class="bi bi-telephone-fill text-success me-2"></i>(11) 9 2080-0447<br>(75) 9 8155-7558</p>
-              <p class="mb-2"><i class="bi bi-envelope-fill text-success me-2"></i>contato@izap.ai</p>
-              <p class="mb-0"><i class="bi bi-clock-fill text-success me-2"></i>Segunda à Sexta: 8:00 - 18:00<br>Sábado: 9:00 - 13:00</p>
-            </div>
-      
-            <!-- Mapa -->
-            <div class="rounded-4 shadow-sm overflow-hidden">
-              <iframe
-                src="https://www.google.com/maps?q=Rua%20Serran%C3%B3polis%2C%209-A%2C%20Feira%20de%20Santana-BA%2C%20Brasil&output=embed"
-                width="100%" height="250" style="border:0;" allowfullscreen loading="lazy">
-              </iframe>
-            </div>
-          </div>
-      
-          <!-- Formulário + Redes -->
-          <div class="col-lg-8">
-            <div class="bg-white p-5 rounded-4 shadow-sm border border-light">
-              <h5 class="fw-bold mb-4 text-success">Envie uma Mensagem <i class="bi bi-send-fill"></i></h5>
-              <form>
-                <div class="row g-3">
-                  <div class="col-md-6 position-relative">
-                    <i class="bi bi-person form-icon"></i>
-                    <input type="text" class="form-control input-with-icon" placeholder="Digite seu nome completo" required>
-                  </div>
-                  <div class="col-md-6 position-relative">
-                    <i class="bi bi-envelope form-icon"></i>
-                    <input type="email" class="form-control input-with-icon" placeholder="Digite seu email" required>
-                  </div>
-                  <div class="col-md-6 position-relative">
-                    <i class="bi bi-telephone form-icon"></i>
-                    <input type="text" class="form-control input-with-icon" placeholder="(XX) XXXXX-XXXX" required>
-                  </div>
-                  <div class="col-md-6 position-relative">
-                    <i class="bi bi-question-circle form-icon"></i>
-                    <select class="form-select input-with-icon" required>
-                      <option selected disabled>Selecione um assunto</option>
-                      <option>Dúvida</option>
-                      <option>Suporte</option>
-                      <option>Revenda</option>
-                    </select>
-                  </div>
-                  <div class="col-12 position-relative">
-                    <i class="bi bi-chat-left-text form-icon"></i>
-                    <textarea class="form-control input-with-icon" rows="4" placeholder="Descreva sua dúvida ou solicitação detalhadamente" required></textarea>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-success w-100 fw-bold py-2">ENVIAR MENSAGEM</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-      
-            <!-- Redes Sociais -->
-            <div class="bg-white p-4 mt-4 rounded-4 shadow-sm border-start border-4 border-success">
-                <h5 class="fw-bold mb-3 text-success"><i class="bi bi-share-fill me-2"></i>Redes Sociais</h5>
-                <div class="d-flex flex-wrap gap-4 fs-5">
-                  <a href="https://www.instagram.com/izap.ai/" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center text-success text-decoration-none">
-                    <i class="bi bi-instagram me-2 fs-4"></i> Instagram
-                  </a>
-                  <a href="https://www.facebook.com/people/Izapai/61567469547016/" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center text-success text-decoration-none">
-                    <i class="bi bi-facebook me-2 fs-4"></i> Facebook
-                  </a>
-                  <a href="https://www.linkedin.com/company/izapai/" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center text-success text-decoration-none">
-                    <i class="bi bi-linkedin me-2 fs-4"></i> Linkedin
-                  </a>
-                  <a href="https://api.whatsapp.com/send/?phone=5575981557558&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center text-success text-decoration-none">
-                    <i class="bi bi-whatsapp me-2 fs-4"></i> WhatsApp
-                  </a>
-                  <a href="https://www.tiktok.com/@izap.ai" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center text-success text-decoration-none">
-                    <i class="bi bi-music-note-beamed me-2 fs-4"></i> TikTok
-                  </a>
-                </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SEÇÃO: Banner -->
+  <section id="inicio" style="background-color: #f8f9fa;">
+    <!-- Imagem de banner -->
+    <div class="main">
+      <img src="../assets/midias/img/bannerContato.png" alt="Banner" class="img-fluid w-100">
+    </div>
+  </section>
+
+  <!-- SEÇÃO: Contato -->
+  <section class="container py-5">
+    <div class="text-center mb-5">
+      <!-- Título e descrição -->
+      <h1 class="fw-bold text-success">Entre em Contato</h1>
+      <p class="text-muted">Estamos aqui para ajudar com qualquer dúvida ou solicitação</p>
+    </div>
+
+    <div class="row g-5">
+      <!-- Lado Esquerdo: Informações de Contato e Mapa -->
+      <div class="col-lg-4">
+        <!-- Bloco de Informações de Contato -->
+        <div class="bg-white p-4 rounded-4 shadow-sm mb-4 border-start border-4 border-success">
+          <h5 class="fw-bold mb-3 text-success"><i class="bi bi-info-circle-fill me-2"></i>Informações de Contato</h5>
+          <p class="mb-2"><i class="bi bi-geo-alt-fill text-success me-2"></i>Rua Serranópolis, 9-A, Caseb<br>Feira de
+            Santana-BA, 44.052-171</p>
+          <p class="mb-2"><i class="bi bi-telephone-fill text-success me-2"></i>(11) 9 2080-0447<br>(75) 9 8155-7558</p>
+          <p class="mb-2"><i class="bi bi-envelope-fill text-success me-2"></i>contato@izap.ai</p>
+          <p class="mb-0"><i class="bi bi-clock-fill text-success me-2"></i>Segunda à Sexta: 8:00 - 18:00<br>Sábado:
+            9:00 - 13:00</p>
+        </div>
+
+        <!-- Mapa -->
+        <div class="rounded-4 shadow-sm overflow-hidden">
+          <iframe
+            src="https://www.google.com/maps?q=Rua%20Serran%C3%B3polis%2C%209-A%2C%20Feira%20de%20Santana-BA%2C%20Brasil&output=embed"
+            width="100%" height="250" style="border:0;" allowfullscreen loading="lazy">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Lado Direito: Formulário de Contato e Redes Sociais -->
+      <div class="col-lg-8">
+        <!-- Bloco do Formulário -->
+        <div class="bg-white p-5 rounded-4 shadow-sm border border-light">
+          <h5 class="fw-bold mb-4 text-success">Envie uma Mensagem <i class="bi bi-send-fill"></i></h5>
+          <form>
+            <div class="row g-3">
+              <!-- Campo Nome -->
+              <div class="col-md-6 position-relative">
+                <i class="bi bi-person form-icon"></i>
+                <input type="text" class="form-control input-with-icon" placeholder="Digite seu nome completo" required>
               </div>
-              
+              <!-- Campo E-mail -->
+              <div class="col-md-6 position-relative">
+                <i class="bi bi-envelope form-icon"></i>
+                <input type="email" class="form-control input-with-icon" placeholder="Digite seu email" required>
+              </div>
+              <!-- Campo Telefone -->
+              <div class="col-md-6 position-relative">
+                <i class="bi bi-telephone form-icon"></i>
+                <input type="text" class="form-control input-with-icon" placeholder="(XX) XXXXX-XXXX" required>
+              </div>
+              <!-- Campo Assunto -->
+              <div class="col-md-6 position-relative">
+                <i class="bi bi-question-circle form-icon"></i>
+                <select class="form-select input-with-icon" required>
+                  <option selected disabled>Selecione um assunto</option>
+                  <option>Dúvida</option>
+                  <option>Suporte</option>
+                  <option>Revenda</option>
+                </select>
+              </div>
+              <!-- Campo Mensagem -->
+              <div class="col-12 position-relative">
+                <i class="bi bi-chat-left-text form-icon"></i>
+                <textarea class="form-control input-with-icon" rows="4"
+                  placeholder="Descreva sua dúvida ou solicitação detalhadamente" required></textarea>
+              </div>
+              <!-- Botão de Enviar -->
+              <div class="col-12">
+                <button type="submit" class="btn btn-success w-100 fw-bold py-2">ENVIAR MENSAGEM</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Bloco de Redes Sociais -->
+        <div class="bg-white p-4 mt-4 rounded-4 shadow-sm border-start border-4 border-success">
+          <h5 class="fw-bold mb-3 text-success"><i class="bi bi-share-fill me-2"></i>Redes Sociais</h5>
+          <div class="d-flex flex-wrap gap-4 fs-5">
+            <!-- Links para redes sociais -->
+            <a href="https://www.instagram.com/izap.ai/" target="_blank" rel="noopener noreferrer"
+              class="d-flex align-items-center text-success text-decoration-none">
+              <i class="bi bi-instagram me-2 fs-4"></i> Instagram
+            </a>
+            <a href="https://www.facebook.com/people/Izapai/61567469547016/" target="_blank" rel="noopener noreferrer"
+              class="d-flex align-items-center text-success text-decoration-none">
+              <i class="bi bi-facebook me-2 fs-4"></i> Facebook
+            </a>
+            <a href="https://www.linkedin.com/company/izapai/" target="_blank" rel="noopener noreferrer"
+              class="d-flex align-items-center text-success text-decoration-none">
+              <i class="bi bi-linkedin me-2 fs-4"></i> Linkedin
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=5575981557558&text&type=phone_number&app_absent=0"
+              target="_blank" rel="noopener noreferrer"
+              class="d-flex align-items-center text-success text-decoration-none">
+              <i class="bi bi-whatsapp me-2 fs-4"></i> WhatsApp
+            </a>
+            <a href="https://www.tiktok.com/@izap.ai" target="_blank" rel="noopener noreferrer"
+              class="d-flex align-items-center text-success text-decoration-none">
+              <i class="bi bi-music-note-beamed me-2 fs-4"></i> TikTok
+            </a>
           </div>
         </div>
-      </section>
-      
+      </div>
+    </div>
+  </section>
 
 
 
-    <footer class="py-4" style="background-color: #e9f7ef; box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.05);">
-
-        <div class="container text-center">
-            <img src="../assets/midias/img/izap-logo.png" alt="Logo iZap" style="height: 40px;" class="mb-3">
-            <img src="../assets/midias/img/izap-logoName.png" alt="Logo iZap" style="height: 40px;" class="mb-3">
-
-            <div class="mb-3">
-                <a href="https://www.instagram.com/izap.ai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.facebook.com/people/Izapai/61567469547016/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/izapai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                <a href="https://api.whatsapp.com/send/?phone=5575981557558&text&type=phone_number&app_absent=0" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
-                <a href="https://www.tiktok.com/@izap.ai" class="text-dark" target="_blank" rel="noopener noreferrer"><i class="bi bi-tiktok"></i></a>
-            </div>
-            
-
-            <small class="d-block mb-1">
-                © iZap. Todos os direitos reservados.
-                <a href="./termos.html" class="text-success text-decoration-none">Termos de Uso</a> |
-                <a href="./privacidade.html" class="text-success text-decoration-none">Política de Privacidade</a>
-            </small>
-            <small class="d-block">Rua Serranópolis, 9-A, Caseb, Feira de Santana-BA, 44.052-171</small>
-            <small class="d-block">CNPJ: 18.051.583/0001-45</small>
-        </div>
-    </footer>
 
 
+  <!-- SEÇÃO: Rodapé -->
+  <footer class="py-4" style="background-color: #e9f7ef; box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.05);">
+    <div class="container text-center">
 
-    <!-- SCRIPTS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Logo da empresa -->
+      <img src="../assets/midias/img/izap-logo.png" alt="Logo iZap" style="height: 40px;" class="mb-3">
+      <img src="../assets/midias/img/izap-logoName.png" alt="Logo iZap" style="height: 40px;" class="mb-3">
+
+      <!-- Links de redes sociais -->
+      <div class="mb-3">
+        <a href="https://www.instagram.com/izap.ai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/people/Izapai/61567469547016/" class="text-dark me-3" target="_blank"
+          rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/izapai/" class="text-dark me-3" target="_blank"
+          rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=5575981557558&text&type=phone_number&app_absent=0"
+          class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.tiktok.com/@izap.ai" class="text-dark" target="_blank" rel="noopener noreferrer"><i
+            class="bi bi-tiktok"></i></a>
+      </div>
+
+      <!-- Informações de direitos autorais e links -->
+      <small class="d-block mb-1">
+        © iZap. Todos os direitos reservados.
+        <a href="./pages/termos.html" class="text-success text-decoration-none">Termos de Uso</a> |
+        <a href="./pages/privacidade.html" class="text-success text-decoration-none">Política de Privacidade</a>
+      </small>
+
+      <!-- Endereço e CNPJ da empresa -->
+      <small class="d-block">Rua Serranópolis, 9-A, Caseb, Feira de Santana-BA, 44.052-171</small>
+      <small class="d-block">CNPJ: 18.051.583/0001-45</small>
+
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
