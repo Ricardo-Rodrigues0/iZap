@@ -2,38 +2,58 @@
 <html lang="pt-BR">
 
 <head>
+    <!-- Meta Tags e Links de Estilos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Icons para ícones (usado no projeto) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Bootstrap CSS (para o layout e estilo responsivo) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
+
+    <!-- Estilos adicionais do projeto -->
     <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- Favicon (ícone do site) -->
     <link rel="shortcut icon" href="../assets/midias/img/favicon.ico" type="image/x-icon">
-    <title>iZAP.ai - Política de Privacidade | Automatize seus atendimentos com Inteligência Artificial no WhatsApp</title>
+
+    <!-- Título da página (exibido na aba do navegador) -->
+    <title>iZAP.ai - Clientes | Automatize seus atendimentos com Inteligência Artificial no WhatsApp</title>
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
+    <!-- NAVBAR: Barra de Navegação -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <div class="container-fluid d-flex align-items-center justify-content-between">
+            <!-- Logo da empresa com links para as páginas -->
             <a class="navbar-brand d-flex align-items-center" href="./index.html">
                 <img src="../assets/midias/img/izap-logo.png" alt="Logo" class="img-fluid" style="max-width: 80px;">
                 <img src="../assets/midias/img/izap-logoName.png" alt="Logo" class="img-fluid d-none d-md-block"
                     style="max-width: 120px;">
             </a>
+
+            <!-- Botão para alternar menu em dispositivos pequenos -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Menu de navegação para telas grandes -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="d-none d-lg-flex gap-4 mx-auto nav-buttons">
+                    <!-- Links de navegação para as páginas principais -->
                     <a href="../index.html" class="btn custom-nav-btn">Início</a>
                     <a href="../pages/planos.html" class="btn custom-nav-btn">Planos</a>
                     <a href="../pages/clientes.html" class="btn custom-nav-btn">Clientes</a>
                     <a href="../pages/contatos.html" class="btn custom-nav-btn">Contato</a>
                 </div>
+
+                <!-- Menu de navegação para telas pequenas -->
                 <div class="d-flex d-lg-none flex-column align-items-center navbar-nav mt-3">
+                    <!-- Links de navegação para telas menores -->
                     <a href="../index.html" class="nav-link custom-nav-btn">Início</a>
                     <a href="../pages/planos.html" class="nav-link custom-nav-btn">Planos</a>
                     <a href="../pages/clientes.html" class="nav-link custom-nav-btn">Clientes</a>
@@ -50,35 +70,45 @@
         </div>
     </section>
 
+    <!-- SEÇÃO: Rodapé -->
     <footer class="py-4" style="background-color: #e9f7ef; box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.05);">
-
         <div class="container text-center">
+
+            <!-- Logo da empresa -->
             <img src="../assets/midias/img/izap-logo.png" alt="Logo iZap" style="height: 40px;" class="mb-3">
             <img src="../assets/midias/img/izap-logoName.png" alt="Logo iZap" style="height: 40px;" class="mb-3">
 
+            <!-- Links de redes sociais -->
             <div class="mb-3">
-                <a href="https://www.instagram.com/izap.ai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.facebook.com/people/Izapai/61567469547016/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/izapai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                <a href="https://api.whatsapp.com/send/?phone=5575981557558&text&type=phone_number&app_absent=0" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
-                <a href="https://www.tiktok.com/@izap.ai" class="text-dark" target="_blank" rel="noopener noreferrer"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/izap.ai/" class="text-dark me-3" target="_blank"
+                    rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/people/Izapai/61567469547016/" class="text-dark me-3" target="_blank"
+                    rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/izapai/" class="text-dark me-3" target="_blank"
+                    rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=5575981557558&text&type=phone_number&app_absent=0"
+                    class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@izap.ai" class="text-dark" target="_blank" rel="noopener noreferrer"><i
+                        class="bi bi-tiktok"></i></a>
             </div>
-            
 
+            <!-- Informações de direitos autorais e links -->
             <small class="d-block mb-1">
                 © iZap. Todos os direitos reservados.
-                <a href="./termos.html" class="text-success text-decoration-none">Termos de Uso</a> |
-                <a href="./privacidade.html" class="text-success text-decoration-none">Política de Privacidade</a>
+                <a href="./pages/termos.html" class="text-success text-decoration-none">Termos de Uso</a> |
+                <a href="./pages/privacidade.html" class="text-success text-decoration-none">Política de Privacidade</a>
             </small>
+
+            <!-- Endereço e CNPJ da empresa -->
             <small class="d-block">Rua Serranópolis, 9-A, Caseb, Feira de Santana-BA, 44.052-171</small>
             <small class="d-block">CNPJ: 18.051.583/0001-45</small>
+
         </div>
     </footer>
 
-
-
     <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
