@@ -4,11 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Ícones do Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- CSS do Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
+
+    <!-- Estilos personalizados -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Ícone da aba do navegador -->
     <link rel="shortcut icon" href="./assets/midias/img/favicon.ico" type="image/x-icon">
+
     <title>iZAP.ai - Início | Automatize seus atendimentos com Inteligência Artificial no WhatsApp</title>
 </head>
 
@@ -17,22 +26,32 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <div class="container-fluid d-flex align-items-center justify-content-between">
+
+            <!-- Logo da empresa -->
             <a class="navbar-brand d-flex align-items-center" href="./index.html">
                 <img src="./assets/midias/img/izap-logo.png" alt="Logo" class="img-fluid" style="max-width: 80px;">
                 <img src="./assets/midias/img/izap-logoName.png" alt="Logo" class="img-fluid d-none d-md-block"
                     style="max-width: 120px;">
             </a>
+
+            <!-- Botão para menu colapsável em telas menores -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Itens do menu -->
             <div class="collapse navbar-collapse" id="navbarNav">
+
+                <!-- Menu horizontal em telas grandes -->
                 <div class="d-none d-lg-flex gap-4 mx-auto nav-buttons">
                     <a href="./index.html" class="btn custom-nav-btn">Início</a>
                     <a href="./pages/planos.html" class="btn custom-nav-btn">Planos</a>
                     <a href="./pages/clientes.html" class="btn custom-nav-btn">Clientes</a>
                     <a href="./pages/contatos.html" class="btn custom-nav-btn">Contato</a>
                 </div>
+
+                <!-- Menu vertical em telas pequenas -->
                 <div class="d-flex d-lg-none flex-column align-items-center navbar-nav mt-3">
                     <a href="./index.html" class="nav-link custom-nav-btn">Início</a>
                     <a href="./pages/planos.html" class="nav-link custom-nav-btn">Planos</a>
@@ -43,19 +62,23 @@
         </div>
     </nav>
 
-    <!-- SEÇÃO: Banner -->
+    <!-- SEÇÃO: Banner principal -->
     <section id="inicio" style="background-color: #ffffff;">
         <div class="main">
             <img src="./assets/midias/img/banner.png" alt="Banner" class="img-fluid w-100">
         </div>
     </section>
 
-    <!-- SEÇÃO: Benefícios -->
+    <!-- SEÇÃO: Benefícios da plataforma -->
     <section style="background-color: #ffffff;">
         <div class="container text-center py-5">
+
             <h3 class="fw-bold text-success">Comece agora mesmo a automatizar seus atendimentos</h3>
-            <p class="text-muted mb-4">Empresas como a sua já estão colhendo os benefícios da automação com IA. E você?
+            <p class="text-muted mb-4">
+                Empresas como a sua já estão colhendo os benefícios da automação com IA. E você?
             </p>
+
+            <!-- Ícones e descrições dos benefícios -->
             <div class="row text-center mb-4">
                 <div class="col-12 col-md-4">
                     <i class="bi bi-robot fs-1 text-success"></i>
@@ -73,17 +96,17 @@
                     <p>Converta mais clientes com atendimento rápido.</p>
                 </div>
             </div>
+
+            <!-- Botões de ação -->
             <div class="row justify-content-center g-2 mt-4">
                 <div class="col-12 col-md-4">
-                    <a 
-                        href="https://api.whatsapp.com/send/?phone=5575981557558&text=Ol%C3%A1%2C+acessei+o+site+e+tenho+interesse+em+realizar+um+teste+gratuito+da+plataforma+iZap.ai.&type=phone_number&app_absent=0" 
-                        class="btn btn-success btn-lg w-75 rounded-pill" 
-                        target="_blank" 
-                        rel="noopener noreferrer">
+                    <!-- Link direto para WhatsApp com mensagem pré-definida -->
+                    <a href="https://api.whatsapp.com/send/?phone=5575981557558&text=Ol%C3%A1%2C+acessei+o+site+e+tenho+interesse+em+realizar+um+teste+gratuito+da+plataforma+iZap.ai.&type=phone_number&app_absent=0"
+                        class="btn btn-success btn-lg w-75 rounded-pill" target="_blank" rel="noopener noreferrer">
                         Teste Grátis
                     </a>
                 </div>
-                
+
                 <div class="col-12 col-md-4">
                     <a href="./pages/planos.html" class="btn btn-outline-success btn-lg w-75 rounded-pill">Planos</a>
                 </div>
@@ -94,79 +117,96 @@
     <!-- SEÇÃO: Funcionalidades -->
     <section style="background-color: #e9f7ef;">
         <div class="container py-5">
-            <h4 class="fw-bold text-center mb-4">Funcionalidades poderosas para o seu atendimento</h4>
-            <p class="text-center text-muted mb-5">Descubra o que você pode fazer com a nossa solução integrada ao
-                WhatsApp.</p>
+            <h4 class="fw-bold text-center mb-4">
+                Funcionalidades poderosas para o seu atendimento
+            </h4>
+            <p class="text-center text-muted mb-5">
+                Descubra o que você pode fazer com a nossa solução integrada ao WhatsApp.
+            </p>
+
+            <!-- Grid de funcionalidades em cards -->
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-                <!-- CARD 1 -->
+                <!-- CARD 1: Inteligência Artificial -->
                 <div class="col">
                     <div class="card card-custom text-center p-3">
                         <i class="bi bi-cpu icon-large"></i>
                         <div class="card-body">
                             <h5 class="card-title">Inteligência Artificial</h5>
-                            <p class="card-text">Automatize atendimentos com respostas inteligentes que aprendem com as
-                                interações e melhoram a experiência do cliente.</p>
+                            <p class="card-text">
+                                Automatize atendimentos com respostas inteligentes que aprendem com as interações e
+                                melhoram a experiência do cliente.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- CARD 2 -->
+                <!-- CARD 2: Pedidos Automatizados -->
                 <div class="col">
                     <div class="card card-custom text-center p-3">
                         <i class="bi bi-bag-check icon-large"></i>
                         <div class="card-body">
                             <h5 class="card-title">Pedidos Automatizados</h5>
-                            <p class="card-text">Gerencie pedidos pelo WhatsApp de forma prática e automatizada,
-                                otimizando o tempo e aumentando a conversão.</p>
+                            <p class="card-text">
+                                Gerencie pedidos pelo WhatsApp de forma prática e automatizada, otimizando o tempo e
+                                aumentando a conversão.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- CARD 3 -->
+                <!-- CARD 3: Agendamentos Simples -->
                 <div class="col">
                     <div class="card card-custom text-center p-3">
                         <i class="bi bi-calendar-check icon-large"></i>
                         <div class="card-body">
                             <h5 class="card-title">Agendamentos Simples</h5>
-                            <p class="card-text">Ofereça aos seus clientes a facilidade de agendar horários pelo
-                                WhatsApp, com lembretes automáticos e confirmação imediata.</p>
+                            <p class="card-text">
+                                Ofereça aos seus clientes a facilidade de agendar horários pelo WhatsApp, com lembretes
+                                automáticos e confirmação imediata.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- CARD 4 -->
+                <!-- CARD 4: Relatórios Detalhados -->
                 <div class="col">
                     <div class="card card-custom text-center p-3">
                         <i class="bi bi-bar-chart-line icon-large"></i>
                         <div class="card-body">
                             <h5 class="card-title">Relatórios Detalhados</h5>
-                            <p class="card-text">Tenha acesso a dados completos sobre suas vendas, atendimentos e
-                                interações, tudo organizado em gráficos e relatórios claros.</p>
+                            <p class="card-text">
+                                Tenha acesso a dados completos sobre suas vendas, atendimentos e interações, tudo
+                                organizado em gráficos e relatórios claros.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- CARD 5 -->
+                <!-- CARD 5: Fidelização de Clientes -->
                 <div class="col">
                     <div class="card card-custom text-center p-3">
                         <i class="bi bi-emoji-heart-eyes icon-large"></i>
                         <div class="card-body">
                             <h5 class="card-title">Fidelização de Clientes</h5>
-                            <p class="card-text">Implemente campanhas de pontos, brindes e recompensas para valorizar
-                                quem escolhe sua marca com frequência.</p>
+                            <p class="card-text">
+                                Implemente campanhas de pontos, brindes e recompensas para valorizar quem escolhe sua
+                                marca com frequência.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- CARD 6 -->
+                <!-- CARD 6: Integração com Pagamentos -->
                 <div class="col">
                     <div class="card card-custom text-center p-3">
                         <i class="bi bi-credit-card icon-large"></i>
                         <div class="card-body">
                             <h5 class="card-title">Integração com Pagamentos</h5>
-                            <p class="card-text">Conclua vendas com mais agilidade permitindo que seus clientes paguem
-                                direto pelo chat, com segurança e praticidade.</p>
+                            <p class="card-text">
+                                Conclua vendas com mais agilidade permitindo que seus clientes paguem direto pelo chat,
+                                com segurança e praticidade.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -182,10 +222,14 @@
         </div>
     </section>
 
-    <!-- SEÇÃO: Depoimentos -->
+
+    <!-- SEÇÃO: Depoimentos de Clientes -->
     <section class="depoimentos-section" style="background-color: #e9f7ef;">
         <div class="container">
+            <!-- Título da Seção -->
             <h2 class="text-center mb-5">Veja como o iZap ajudou outros negócios</h2>
+
+            <!-- Carrossel de Depoimentos -->
             <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
                 <div class="carousel-inner">
 
@@ -196,8 +240,9 @@
                                 class="foto-cliente mb-3">
                             <h5 class="cliente-nome">CasaBlanca</h5>
                             <small class="cliente-empresa">Delicatessen</small>
-                            <p class="lead mt-3">"O iZap transformou nosso atendimento. Conseguimos automatizar os
-                                pedidos e reduzir o tempo de espera dos clientes. Nosso faturamento aumentou em 30%!"
+                            <p class="lead mt-3">
+                                "O iZap transformou nosso atendimento. Conseguimos automatizar os pedidos e reduzir o
+                                tempo de espera dos clientes. Nosso faturamento aumentou em 30%!"
                             </p>
                         </div>
                     </div>
@@ -209,27 +254,30 @@
                                 class="foto-cliente mb-3">
                             <h5 class="cliente-nome">Casa do Bolo</h5>
                             <small class="cliente-empresa">Confeitaria</small>
-                            <p class="lead mt-3">"Desde que implementamos o iZap, conseguimos atender mais clientes com
-                                a mesma equipe. O sistema é intuitivo e os clientes adoram a rapidez nas respostas."</p>
+                            <p class="lead mt-3">
+                                "Desde que implementamos o iZap, conseguimos atender mais clientes com a mesma equipe. O
+                                sistema é intuitivo e os clientes adoram a rapidez nas respostas."
+                            </p>
                         </div>
                     </div>
 
                     <!-- Depoimento 3 -->
                     <div class="carousel-item">
                         <div class="depoimento-item mx-auto">
-                            <img src="./assets/midias/clientes/acainokilo.png" alt="Foto cliente"
+                            <img src="./assets/midias/clientes/acainokilo.png" alt="Foto cliente Açaí no Kilo"
                                 class="foto-cliente mb-3">
                             <h5 class="cliente-nome">Açaí no Kilo</h5>
                             <small class="cliente-empresa">Sorveteria</small>
-                            <p class="lead mt-3">"A integração com pagamentos via PIX facilitou muito nossas vendas. Os
-                                clientes fazem o pedido e pagam tudo pelo WhatsApp, sem complicação. Sistema perfeito!"
+                            <p class="lead mt-3">
+                                "A integração com pagamentos via PIX facilitou muito nossas vendas. Os clientes fazem o
+                                pedido e pagam tudo pelo WhatsApp, sem complicação. Sistema perfeito!"
                             </p>
                         </div>
                     </div>
 
                 </div>
 
-                <!-- Controles com setas verdes -->
+                <!-- Controles do Carrossel (setas de navegação) -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon seta-verde"></span>
@@ -244,11 +292,11 @@
         </div>
     </section>
 
-    <!-- SEÇÃO: Banner 2 -->
+    <!-- SEÇÃO: Demonstração em Vídeo -->
     <section class="py-5" style="background-color: #ffffff;">
         <div class="container">
 
-            <!-- Título Central -->
+            <!-- Título e Descrição -->
             <div class="row mb-5">
                 <div class="col text-center">
                     <h3 class="fw-bold text-success">Demonstração de Como Funciona na Prática</h3>
@@ -257,8 +305,10 @@
                 </div>
             </div>
 
+            <!-- Conteúdo com texto e vídeo -->
             <div class="row align-items-center">
-                <!-- Coluna do Título e Texto -->
+
+                <!-- Coluna de Texto -->
                 <div class="col-md-6 mb-4">
                     <h2 class="fw-bold mb-4 text-center text-md-start">Transforme Suas Conversas com IA no WhatsApp</h2>
                     <p class="text-muted lead">
@@ -270,7 +320,8 @@
                         comunica com os clientes — de forma simples, automatizada e eficaz.
                     </p>
                 </div>
-                <!-- Coluna do Vídeo -->
+
+                <!-- Coluna com o Vídeo -->
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center">
                         <video class="video-vertical rounded shadow" controls>
@@ -282,6 +333,7 @@
             </div>
         </div>
     </section>
+
 
 
 
@@ -299,8 +351,10 @@
             <!-- Carrossel de Depoimentos -->
             <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
+                    <!-- Primeira Página do Carrossel -->
                     <div class="carousel-item active">
                         <div class="row">
+                            <!-- Depoimento 1 -->
                             <div class="col-md-4">
                                 <div class="depoimento-item mx-auto">
                                     <img src="./assets/midias/clientes/acainokilo.png" alt="Foto cliente"
@@ -310,6 +364,7 @@
                                 </div>
                             </div>
 
+                            <!-- Depoimento 2 -->
                             <div class="col-md-4">
                                 <div class="depoimento-item mx-auto">
                                     <img src="./assets/midias/clientes/casablanca.png" alt="Foto cliente"
@@ -319,6 +374,7 @@
                                 </div>
                             </div>
 
+                            <!-- Depoimento 3 -->
                             <div class="col-md-4">
                                 <div class="depoimento-item mx-auto">
                                     <img src="./assets/midias/clientes/casadobolo.png" alt="Foto cliente"
@@ -330,8 +386,10 @@
                         </div>
                     </div>
 
+                    <!-- Segunda Página do Carrossel -->
                     <div class="carousel-item">
                         <div class="row">
+                            <!-- Depoimento 4 -->
                             <div class="col-md-4">
                                 <div class="depoimento-item mx-auto">
                                     <img src="./assets/midias/clientes/motaburguer.png" alt="Foto cliente"
@@ -341,6 +399,7 @@
                                 </div>
                             </div>
 
+                            <!-- Depoimento 5 -->
                             <div class="col-md-4">
                                 <div class="depoimento-item mx-auto">
                                     <img src="./assets/midias/clientes/reidogaleto.png" alt="Foto cliente"
@@ -350,6 +409,7 @@
                                 </div>
                             </div>
 
+                            <!-- Depoimento 6 -->
                             <div class="col-md-4">
                                 <div class="depoimento-item mx-auto">
                                     <img src="./assets/midias/clientes/mundodobeiju.png" alt="Foto cliente"
@@ -361,9 +421,10 @@
                         </div>
                     </div>
 
-
+                    <!-- Terceira Página do Carrossel -->
                     <div class="carousel-item">
                         <div class="row">
+                            <!-- Depoimento 7 -->
                             <div class="col-md-4">
                                 <div class="depoimento-item mx-auto">
                                     <img src="./assets/midias/clientes/rodrigogas.png" alt="Foto cliente"
@@ -373,6 +434,7 @@
                                 </div>
                             </div>
 
+                            <!-- Depoimento 8 -->
                             <div class="col-md-4">
                                 <div class="depoimento-item mx-auto">
                                     <img src="./assets/midias/clientes/litoral.png" alt="Foto cliente"
@@ -383,60 +445,73 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Controles -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon seta-verde" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon seta-verde" aria-hidden="true"></span>
-                        <span class="visually-hidden">Próximo</span>
-                    </button>
                 </div>
-            </div>
 
-            <div class="container text-center py-5">
-                <h3 class="fw-bold mt-2 mb-4">Faça como eles e automatize seu atendimento.</h3>
-                <div class="col-12 col-md-4 mx-auto">
-                    <a href="./pages/planos.html" class="btn btn-success btn-lg w-100 rounded-pill">Quero Automatizar</a>
-                </div>
+                <!-- Controles do Carrossel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon seta-verde" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon seta-verde" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Chamada para Ação -->
+        <div class="container text-center py-5">
+            <h3 class="fw-bold mt-2 mb-4">Faça como eles e automatize seu atendimento.</h3>
+            <div class="col-12 col-md-4 mx-auto">
+                <a href="./pages/planos.html" class="btn btn-success btn-lg w-100 rounded-pill">Quero Automatizar</a>
             </div>
         </div>
     </section>
 
 
 
-    <footer class="py-4" style="background-color: #e9f7ef; box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.05);">
 
+    <!-- SEÇÃO: Rodapé -->
+    <footer class="py-4" style="background-color: #e9f7ef; box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.05);">
         <div class="container text-center">
+
+            <!-- Logo da empresa -->
             <img src="./assets/midias/img/izap-logo.png" alt="Logo iZap" style="height: 40px;" class="mb-3">
             <img src="./assets/midias/img/izap-logoName.png" alt="Logo iZap" style="height: 40px;" class="mb-3">
 
+            <!-- Links de redes sociais -->
             <div class="mb-3">
-                <a href="https://www.instagram.com/izap.ai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.facebook.com/people/Izapai/61567469547016/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/izapai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                <a href="https://api.whatsapp.com/send/?phone=5575981557558&text&type=phone_number&app_absent=0" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
-                <a href="https://www.tiktok.com/@izap.ai" class="text-dark" target="_blank" rel="noopener noreferrer"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/izap.ai/" class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/people/Izapai/61567469547016/" class="text-dark me-3" target="_blank"
+                    rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/izapai/" class="text-dark me-3" target="_blank"
+                    rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=5575981557558&text&type=phone_number&app_absent=0"
+                    class="text-dark me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@izap.ai" class="text-dark" target="_blank" rel="noopener noreferrer"><i
+                        class="bi bi-tiktok"></i></a>
             </div>
-            
 
+            <!-- Informações de direitos autorais e links -->
             <small class="d-block mb-1">
                 © iZap. Todos os direitos reservados.
                 <a href="./pages/termos.html" class="text-success text-decoration-none">Termos de Uso</a> |
                 <a href="./pages/privacidade.html" class="text-success text-decoration-none">Política de Privacidade</a>
             </small>
+
+            <!-- Endereço e CNPJ da empresa -->
             <small class="d-block">Rua Serranópolis, 9-A, Caseb, Feira de Santana-BA, 44.052-171</small>
             <small class="d-block">CNPJ: 18.051.583/0001-45</small>
+
         </div>
     </footer>
 
-
-
     <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
